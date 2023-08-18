@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/fevi.svg"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Hamza Shabbir - Portfolio</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="flex container nav-bar">
+        <div>
+          <h2>Hamza <span class="separate-color">Shabbir</span></h2>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="flex page-list">
+            <li><a href="#home" class="hover-change">Home</a></li>
+            <li><a href="#about" class="hover-change">About</a></li>
+            <li><a href="#skills" class="hover-change">Skills</a></li>
+            <li><a href="#services" class="hover-change">Services</a></li>
+            <li><a href="#projects" class="hover-change">Projects</a></li>
+            <li>
+              <a href="#certificate" class="hover-change">Certificates</a>
+            </li>
+            <li><a href="#contact" class="hover-change">Contact</a></li>
+          </ul>
+          <div class="nav-close" id="nav-close">
+            <i class="fa-sharp fa-solid fa-xmark" style="color: #ffffff"></i>
+          </div>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="fa-sharp fa-solid fa-bars" style="color: #ffffff"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section flex" id="home">
+        <div class="container profile-section flex">
+          <div class="intro-section flex" id="intro-section">
+            <h2>Hello, <span class="separate-color">I am</span></h2>
+            <h1 class="separate-color">Hamza Shabbir</h1>
+            <h2>Front-end Developer</h2>
+            <p>
+              with knowledge in front-end website development to give you a
+              desire outcome
+            </p>
+            <!-- <div class="social-icons">
+              <a href="#"
+                ><i
+                  class="fa-brands fa-linkedin fa-2xl"
+                  style="color: #00cc8f"
+                ></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands fa-facebook fa-2xl" style="color: #00cc8f">
+                </i
+              ></a>
+              <a href="#">
+                <i class="fa-brands fa-github fa-2xl" style="color: #00cc8f">
+                </i
+              ></a>
+            </div> -->
+            <a href="./resume/Hamza.pdf" download="hamza.pdf"
+              ><button class="primary-button" id="download-resume">
+                Get Resume
+              </button></a
+            >
+          </div>
+          <div class="profile-picture flex home-img">
+            <svg
+              viewBox="0 0 550 591"
+              xmlns="http://www.w3.org/2000/svg"
+              class="home-blob"
+            >
+              <mask id="maskBlob" mask-type="alpha">
+                <path
+                  d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                 170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                 447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                 587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                 438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"
+                />
+              </mask>
+              <g mask="url(#maskBlob)">
+                <path
+                  d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                 170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                 447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                 587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                 438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"
+                />
+
+                <rect x="37" width="476" height="630" fill="url(#pattern0)" />
+              </g>
+
+              <rect x="37" width="476" height="300" fill="url(#pattern1)" />
+
+              <defs>
+                <pattern
+                  id="pattern0"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use
+                    href="#imageBlob"
+                    transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"
+                  />
+                </pattern>
+
+                <pattern
+                  id="pattern1"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use
+                    href="#imageBlob"
+                    transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"
+                  />
+                </pattern>
+
+                <!-- Insert your profile (recommended size: 640 x 940) -->
+                <image
+                  id="imageBlob"
+                  width="1100"
+                  height="1400"
+                  href="./assets/img/[removal.ai]_5c6ff0cc-cd11-40dc-9bab-3823a260f016-mymy.png"
+                />
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section flex" id="about">
+        <div class="container about-section flex" id="about-section">
+          <div class="details-section flex">
+            <h3>My <span class="separate-color">Intro</span></h3>
+            <h2>About Me</h2>
+            <p>
+              I am a certified front-end website developer with best programming
+              skills.
+            </p>
+            <p>
+              I completed my Intermediate from Islamic Education School &
+              College System.
+            </p>
+            <a href="#contact"
+              ><button class="primary-button">Contact Me</button></a
+            >
+          </div>
+          <div class="profile-picture flex about-img">
+            <svg
+              class="home-blob"
+              viewBox="0 0 550 592"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask id="maskBorder" mask-type="alpha">
+                <path
+                  d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
+                 171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
+                 448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
+                 270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
+                 439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z"
+                  fill="black"
+                />
+              </mask>
+              <g mask="url(#maskBorder)">
+                <rect x="37" width="476" height="630" fill="url(#pattern2)" />
+
+                <path
+                  d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
+                 192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
+                 580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
+                 40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
+                 175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z"
+                  stroke="black"
+                  stroke-width="10"
+                />
+              </g>
+
+              <rect x="37" width="476" height="300" fill="url(#pattern3)" />
+
+              <defs>
+                <pattern
+                  id="pattern2"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use
+                    href="#imageBorder"
+                    transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"
+                  />
+                </pattern>
+
+                <pattern
+                  id="pattern3"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use
+                    href="#imageBorder"
+                    transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"
+                  />
+                </pattern>
+
+                <!-- Insert your profile (recommended size: 640 x 940) -->
+                <image
+                  id="imageBorder"
+                  width="1100"
+                  height="1400"
+                  href="./assets/img/[removal.ai]_5c6ff0cc-cd11-40dc-9bab-3823a260f016-mymy.png"
+                />
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section flex" id="skills">
+        <div class="container skills-section flex">
+          <div class="skills-desc-section flex">
+            <h3>Favorite <span class="separate-color">Skills</span></h3>
+            <h2>My Skills</h2>
+            <p>See what technologies i use to develop projects for you.</p>
+            <a href="#projects"
+              ><button class="primary-button">See Projects</button></a
+            >
+          </div>
+          <div class="skills-list flex">
+            <div class="skills-list-1">
+              <ul>
+                <li><span class="separate-color">01. </span>HTML & CSS</li>
+                <li><span class="separate-color">02. </span>Bootstrap</li>
+                <li><span class="separate-color">03. </span>Tailwind CSS</li>
+                <li><span class="separate-color">04. </span>Javascript</li>
+              </ul>
+            </div>
+            <div class="skills-list-2">
+              <ul>
+                <li><span class="separate-color">05. </span>React JS</li>
+                <li><span class="separate-color">05. </span>Next JS</li>
+                <li><span class="separate-color">07. </span>Figma</li>
+                <li><span class="separate-color">08. </span>Git & GitHub</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section flex" id="services">
+        <div class="container services-section flex">
+          <div class="services-title-desc">
+            <h3>My <span class="separate-color">Services</span></h3>
+            <h2>What I Do</h2>
+          </div>
+          <div class="services-area flex">
+            <div class="services-card flex">
+              <!-- <i class="fa-solid fa-code" style="color: #00cc8f"></i> -->
+              <img src="./assets/img/ui.svg" alt="" />
+              <h3>UI / UX Designing</h3>
+              <p>
+                Will Design prototypes for your project with creative desingning
+                skills and modern layouts.
+              </p>
+            </div>
+            <div class="services-card flex">
+              <img src="./assets/img/web.svg" alt="" />
+              <h3>Custom Web App</h3>
+              <p>
+                Complete Front-end web app with Custom Designing and features
+                with latest web technologies.
+              </p>
+            </div>
+            <div class="services-card flex">
+              <img src="./assets/img/seo.svg" alt="" />
+              <h3>SEO</h3>
+              <p>will do seo to rank your website/business in browsers.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section flex" id="projects">
+        <div class="container projects-section flex">
+          <div class="projects-title-desc">
+            <h3>My <span class="separate-color">Work</span></h3>
+            <h2>Personal Projects</h2>
+          </div>
+          <div class="project-gallery flex">
+            <div class="project-card" style="gap: 20px">
+              <a
+                href="https://hamzashabbir22.github.io/Travel-Website/"
+                class="logo"
+                target="_blank"
+                ><span>T</span>ravel <span>W</span>ebsite
+              </a>
+            </div>
+            <div class="project-card">
+              <a
+                href="https://hamzashabbir22.github.io/usability-hub/"
+                target="_blank"
+              >
+                <img src="./assets/img/asset 1.png" alt="usability-hub" />
+              </a>
+            </div>
+            <div class="project-card">
+              <a
+                href="https://hamzashabbir22.github.io/Omni-Foods/"
+                target="_blank"
+              >
+                <img src="./assets/img/asset 0.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CERTIFICATES ====================-->
+      <section class="certificates section flex" id="certificate">
+        <div class="container certificates-section flex">
+          <div class="certificates-title-desc">
+            <h3>My <span class="separate-color">Achievements</span></h3>
+            <h2>Certificates</h2>
+          </div>
+          <div class="container slider">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./assets/img/Full Stack.jpeg"
+                    class="d-block w-100"
+                    alt="couple"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/img/Mern Stack_page-0001.jpg"
+                    class="d-block w-100"
+                    alt="dog"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/img/SEO.PNG"
+                    class="d-block w-100"
+                    alt="family"
+                  />
+                </div>
+                <!-- <div class="carousel-item">
+                  <img
+                    src="./assets/img/Graphic Designing.PNG"
+                    class="d-block w-100"
+                    alt="family"
+                  />
+                </div> -->
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span class="" aria-hidden="true"
+                  ><i
+                    class="fa-sharp fa-solid fa-angle-left fa-2xl"
+                    style="color: #000000"
+                  ></i
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span class="" aria-hidden="true"
+                  ><i
+                    class="fa-sharp fa-solid fa-angle-left fa-rotate-180 fa-2xl"
+                    style="color: #000000"
+                  ></i
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact flex" id="contact">
+        <div class="section-contact container flex">
+          <div class="projects-title-desc">
+            <h3>Get In <span class="separate-color">Touch</span></h3>
+            <h2>Contact Me</h2>
+          </div>
+          <div class="contact-form">
+            <form action="" class="flex" id="contact-form">
+              <div class="inputs-field">
+                <div class="fullname">
+                  <input
+                    type="text"
+                    name="user_name"
+                    required
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="email">
+                  <input
+                    type="email"
+                    name="user_email"
+                    required
+                    placeholder="Enter your email"
+                  />
+                </div>
+              </div>
+              <div class="message-box">
+                <textarea
+                  placeholder="Enter your message"
+                  name="user_message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <p class="contact-message" id="contact-message"></p>
+              <input
+                type="submit"
+                value="Send Message"
+                class="primary-button contact-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer flex">
+      <div class="flex container footer-section">
+        <div class="footer-title-desc">
+          <h2>Hamza <span class="separate-color">Shabbir</span></h2>
+          <p>Front-end Developer</p>
+        </div>
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/hamza-shabbir-7a9227284/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin fa-2xl" style="color: #00cc8f"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-facebook fa-2xl" style="color: #00cc8f"> </i
+          ></a>
+          <a href="https://github.com/hamzashabbir22" target="_blank">
+            <i class="fa-brands fa-github fa-2xl" style="color: #00cc8f"> </i
+          ></a>
+        </div>
+        <div class="copyright-section">
+          <p>
+            Copyright © <span class="separate-color">hamza shabbir</span>. All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+
+    <a href="#" class="scrollup" id="scrollup">
+      <i class="fa-solid fa-up-long fa-sm"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9fdd7d8374.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
